@@ -179,7 +179,7 @@ const ContactForm = () => {
               )}
             />
             {/* Honeypot: invisible to people, bots fill it in */}
-            <div aria-hidden className='absolute -left-[9999px] h-0 w-0 overflow-hidden'>
+            <div aria-hidden className='absolute left-[-9999px] h-0 w-0 overflow-hidden'>
               <label htmlFor='website'>Leave this field empty</label>
               <input
                 id='website'
