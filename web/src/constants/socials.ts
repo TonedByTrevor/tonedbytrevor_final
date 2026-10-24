@@ -13,7 +13,7 @@ export const SOCIALS = [
   },
   {
     label: 'Mail',
-    href: '/contact',
+    href: '/#contact',
     icon: 'icons/mail.svg',
   },
 ]
